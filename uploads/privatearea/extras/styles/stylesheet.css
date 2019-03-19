@@ -1,0 +1,475 @@
+@import url(menu.css);
+@import url(index.css);
+/**
+* @package admin
+* @ignore
+* @access private
+* @copyright Copyright 2003-2006 Zen Cart Development Team
+* @copyright Portions Copyright 2003 osCommerce
+* @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+* @version $Id: stylesheet.css 5454 2006-12-29 20:10:17Z drbyte $
+
+including stylesheet for dhtml menu
+including stylesheet for index.php*/
+A
+{
+	color: #FE0000;
+	text-decoration: none;
+}
+A, BODY, HTML, TABLE
+{
+	font: normal normal 11px Verdana, sans-serif;
+}
+A:hover
+{
+	text-decoration: underline;
+}
+A.headerLink:link
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+A.headerLink:visited
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+A.headerLink:hover
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+A.headerLink:active
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+A.menuBoxContentLink:link
+{
+	color: #0000FF;
+	text-decoration: none;
+}
+A.menuBoxContentLink:visited
+{
+	color: #0000FF;
+	text-decoration: none;
+}
+A.menuBoxContentLink:hover
+{
+	color: #0000FF;
+	text-decoration: underline;
+}
+A.menuBoxContentLink:active
+{
+	color: #0000FF;
+	text-decoration: none;
+}
+A.menuBoxHeadingLink:link
+{
+	color: #0000FF;
+	font-weight: bold;
+	text-decoration: none;
+}
+A.menuBoxHeadingLink:visited
+{
+	color: #0000FF;
+	font-weight: bold;
+	text-decoration: none;
+}
+A.menuBoxHeadingLink:hover
+{
+	color: #0000FF;
+	font-weight: bold;
+	text-decoration: none;
+}
+A.menuBoxHeadingLink:active
+{
+	color: #0000FF;
+	font-weight: bold;
+	text-decoration: none;
+}
+A.splitPageLink:link
+{
+	color: #0000FF;
+	text-decoration: none;
+}
+A.splitPageLink:visited
+{
+	color: #0000FF;
+	text-decoration: none;
+}
+A.splitPageLink:hover
+{
+	background-color: #FFFF33;
+	color: #0000FF;
+	text-decoration: underline;
+}
+A.splitPageLink:active
+{
+	color: #0000FF;
+	text-decoration: none;
+}
+BODY
+{
+	background-color: #FFFFFF;
+	color: #333333;
+	margin: 0;
+}
+.clearBoth
+{
+	clear: both;
+}
+BODY#login
+{
+	margin-top: 100px;
+	text-align: center;
+}
+BODY#login .button
+{
+	cursor: pointer;
+	padding: 3px;
+	margin-top: 10px;
+}
+BODY#login FIELDSET
+{
+	margin: 0 auto;
+	padding: 10px;
+	width: 400px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.loginLabel
+{
+	margin-left: 60px;
+	margin-right: 5px;
+	width: 125px;
+	float: left;
+	text-align: right;
+	line-height: 1.5;
+}
+BODY#login LEGEND
+{
+	background: #FFFFFF;
+	border: 1px solid #838383;
+	color: #333333;
+	font-size: 90%;
+	padding: 0.2em 0.5em;
+	text-align: right;
+	-moz-border-radius: 2px;
+}
+/*checkbox,input,radio,select,textarea,file*/
+#INVALID-RULE
+{
+	font-size: 11px;
+}
+TEXTAREA
+{
+	width: 80%;
+}
+INPUT[type=text]:focus, INPUT[type=password]:FOCUS, SELECT:focus, INPUT[type=file]:focus
+{
+	color: #FFFFFF;
+	background-color: #838383;
+	border: 1px solid #000000;
+}
+INPUT[type=text], INPUT[type=password], SELECT, INPUT[type=file], TEXTAREA
+{
+	border: 1px solid #838383;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	margin-bottom: 1px;
+	padding: 1px;
+	font-size: 13px;
+}
+/*to handle textareas for browsers which don't like % widths*/
+TEXTAREA.sqlpatchKeyedQuery, TEXTAREA#file_contents
+{
+	width: auto;
+}
+FORM
+{
+	display: inline;
+}
+SPAN.dataTableHeadingContentWhois
+{
+	color: #FF6600;
+	font-weight: bold;
+}
+SPAN.normalprice
+{
+	text-decoration: line-through;
+}
+SPAN.productPriceDiscount, .inputRequirement
+{
+	color: #FF0000;
+}
+SPAN.productSpecialPrice, SPAN.productSalePrice, .stockWarning, SPAN.coming
+{
+	color: #FF0000;
+}
+SPAN.productSpecialPriceSale
+{
+	color: #FF0000;
+	text-decoration: line-through;
+}
+SPAN.SortOrderHeader
+{
+	color: #FF6600;
+	font-weight: bold;
+}
+SPAN.SortOrderHeaderLink
+{
+	color: #0000FF;
+	font-weight: bold;
+}
+TD.alert, SPAN.alert
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+TD.attributeBoxContent
+{
+	background-color: #E2E2E2;
+	color: #333333;
+}
+TD.ot-subtotal-Amount, TD.ot-cod-fee-Amount, TD.ot-group-pricing-Amount, TD.ot-gv-Amount, TD.ot-loworderfee-Amount, TD.ot-shipping-Amount, TD.ot-subtotal-Amount, TD.ot-tax-Amount, TD.ot-coupon-Amount
+{
+}
+TD.ot-subtotal-Text, TD.ot-cod-fee-Text, TD.ot-total-Text, TD.ot-group-pricing-Text, TD.ot-gv-Text, TD.ot-loworderfee-Text, TD.ot-shipping-Text, TD.ot-subtotal-Text, TD.ot-tax-Text, TD.ot-coupon-Text
+{
+	font-weight: bold;
+}
+TD.ot-total-Amount
+{
+	border-top: 1px solid #9A9A9A;
+	font-weight: bold;
+}
+TR.attributeBoxContent
+{
+	background-color: #E2E2E2;
+	color: #333333;
+}
+.attributeBoxContent
+{
+	color: #333333;
+	background-color: #E2E2E2;
+}
+.attributes-even
+{
+	background-color: #FFFFFF;
+}
+.attributes-odd
+{
+	background-color: #F7F6EF;
+}
+.columnLeft
+{
+	background-color: #F2F1EE;
+	border-color: #999999;
+	border-style: solid;
+	border-width: 1px;
+	padding: 2px;
+}
+.dataTableContent
+{
+	color: #333333;
+}
+.dataTableContentBot
+{
+	color: #333333;
+}
+.dataTableContentWhois
+{
+	color: #333333;
+}
+.dataTableHeadingContent
+{
+	color: #020202;
+	font-weight: bold;
+}
+.dataTableHeadingContentWhois
+{
+	color: #333333;
+	font-weight: bold;
+}
+.dataTableHeadingContentWhois A:link, .dataTableHeadingContentWhois A:visited
+{
+	color: #0000FF;
+	font-weight: bold;
+}
+.dataTableHeadingContentWhois A:hover
+{
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.dataTableHeadingRow
+{
+	background-color: #BCBCBC;
+}
+.dataTableHeadingRowWhois
+{
+	background-color: #D7D6CC;
+}
+.dataTableRow
+{
+	background-color: #F2F1EE;
+}
+.dataTableRowBot
+{
+	background-color: #FACBFA;
+}
+.dataTableRowOver
+{
+	background-color: #FFFFFF;
+	cursor: pointer;
+	cursor: hand;
+}
+.dataTableRowOverBot
+{
+	background-color: #FFFFFF;
+}
+.dataTableRowOverWhois
+{
+	background-color: #FFFFFF;
+}
+.dataTableRowSelected
+{
+	background-color: #BEBEBE;
+}
+.dataTableRowSelectedBot
+{
+	background-color: #FF93FF;
+}
+.dataTableRowSelectedWhois
+{
+	background-color: #DEE4E8;
+}
+.dataTableRowSpacer, TD.dataTableRowSpacer, TR.dataTableRowSpacer
+{
+	background-color: #D7D6CC;
+	color: #FF6600;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 1;
+}
+.dataTableRowWhois
+{
+	background-color: #F2F1EE;
+}
+.errorText
+{
+	color: #FF0000;
+}
+.fieldRequired
+{
+	color: #FF0000;
+}
+.formArea
+{
+	background-color: #F1F9FE;
+	border-color: #7B9EBD;
+	border-style: solid;
+	border-width: 1px;
+}
+.formAreaTitle
+{
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.headerBar
+{
+	background-color: #000000;
+}
+.headerBarContent
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 2px;
+}
+.infoBoxContent
+{
+	background-color: #BDBDBD;
+	color: #333333;
+}
+.infoBoxHeading
+{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.main
+{
+	color: #020202 !important;
+}
+.menuBoxContent
+{
+	color: #616060;
+}
+.menuBoxHeading
+{
+	background-color: #FFFFFF;
+	color: #616060;
+}
+.messageBox
+{
+}
+.messageStackCaution
+{
+	background-color: #FFFF00;
+}
+.messageStackError, .messageStackWarning
+{
+	background-color: #FFB3B5;
+}
+.messageStackSuccess
+{
+	background-color: #D4FFBD;
+}
+.oldPrice
+{
+	text-decoration: line-through;
+}
+H1, .pageHeading
+{
+	color: #020202;
+/*727272*/
+	font-size: 16px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+.SaleMakerDisabled
+{
+	background-color: #F0F1F1;
+}
+.SaleMakerOver
+{
+	background-color: #FFFFFF;
+	cursor: pointer;
+	cursor: hand;
+}
+.SaleMakerSelected
+{
+	background-color: #DEE4E8;
+	cursor: pointer;
+	cursor: hand;
+}
+.smallText
+{
+	font-size: 9px;
+}
+.specialPrice
+{
+	color: #FF6600;
+}
+.lookupAttention
+{
+	color: #FF0000;
+}
+.clearBoth
+{
+	clear: both;
+}

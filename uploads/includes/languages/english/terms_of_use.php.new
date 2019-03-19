@@ -1,0 +1,16 @@
+<?php
+/**
+ * Custom Scriptz | http://customscriptz.com
+ * 
+ * @package languageDefines
+ * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ */
+
+define('NAVBAR_TITLE', 'Terms of Use');
+define('HEADING_TITLE', 'Terms of Use');
+
+define('TEXT_TOUS_INTRO', 'Click the name to see it\'s Terms of Use.');
+define('TEXT_NO_TOUS', 'No Terms of Use Found');
+define('TEXT_NO_TOUS_FOR_THIS_LANGUAGE', 'There are no terms of use for this language. Try changing your current language.');
